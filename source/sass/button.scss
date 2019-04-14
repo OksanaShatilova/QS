@@ -1,0 +1,14 @@
+.button {
+  margin-top: 20px;
+  padding: 5px 10px;
+
+  color: $button-text-color;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: $button-color;
+
+  &:hover {
+    background-color: $button-color--hover;
+  }
+}
